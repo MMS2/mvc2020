@@ -1,0 +1,49 @@
+table {
+  
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    text-transform: uppercase
+  }
+  
+  table#tabela tr.tabelahover:hover{background:#eee; cursor:pointer}
+
+  
+  table tr {
+  
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+
+
+  table tr table tr {
+    border: none;
+    padding: 0px;
+  }
+
+
+  table td table td {
+    padding:0px
+  }
+
+
+  table thead { text-align:left}
+  table th,
+  table td {
+    font-size: 7.5pt;
+    padding: .625em;
+
+  }
+  
+  table th {
+   
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  
+
+
+
+

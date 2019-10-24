@@ -1,0 +1,33 @@
+.sideMenu {}
+
+.sideMenu header {
+    font-size: 20px;
+}
+
+.sideMenu ul {
+    padding: 5px;
+    overflow: hidden
+}
+
+.sideMenu ul li {
+    padding: 5px 0px;
+}
+
+.sideMenu ul li a {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    font-weight: 100;
+    border-bottom: 1px solid #fff;
+    color: #222
+}
+
+.sideMenu ul li a:hover {
+    border-color: #000
+}
+
+.sideMenu ul header {
+    border-top: 1px solid #182C61;
+    padding-top: 10px;
+    margin: 10px 0px
+}

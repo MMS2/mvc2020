@@ -1,0 +1,29 @@
+.main {
+}
+
+.main .home {
+  margin-bottom: 20px;
+}
+
+.main header {
+  font-size: 20px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-top:20px;
+  border-top:1px solid #222; padding-top: 10px;
+}
+
+.main .headerInner {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.main .item {
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
+
+.main .item:hover {
+  opacity: 0.5;
+}

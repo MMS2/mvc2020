@@ -1,0 +1,185 @@
+
+        /*Header*/
+        .header {
+            background: #182C61;
+            border-bottom: 1px solid #182C61;
+        }
+
+        .header ul {
+            list-style: none;
+            position: relative;
+            float: left;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            float: left;
+        }
+
+        .header ul a {
+            font-weight: 300;
+            float: left;
+            padding: 3px 10px;
+            font-size: 12px;
+            color: #fff
+        }
+
+        .header ul li {
+            position: relative;
+            float: left;
+            margin: 0;
+            padding: 0
+        }
+
+
+
+        .header ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: #fff;
+            padding: 5px;
+            width:250px
+        }
+
+        .header ul ul li {
+            float: none;
+            text-align:left;
+            padding:5px;
+        }
+
+        .header ul ul a {
+            line-height: 120%;
+            padding: 10px 15px
+        }
+
+        .headerul ul ul {
+            top: 0;
+            left: 100%
+        }
+
+        .header ul li:hover>ul {
+            display: block
+        }
+        .header li>a:after {
+            content: ' ▼';
+        }
+
+        .header li>a:only-child:after {
+            content: '';
+        }
+
+
+
+        .header .logo {
+            font-size: 1.5em;
+            color: #fff
+        }
+
+
+        /* BUSCA*/
+        .cf:before, .cf:after{
+            content:"";
+            display:table;
+        }
+         
+        .cf:after{
+            clear:both;
+        }
+         
+     
+         /* Form wrapper styling */
+        .search-wrapper {
+     
+       
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .4) inset, 0 1px 0 rgba(255, 255, 255, .2);
+        }
+         
+        /* Form text input */
+         
+        .search-wrapper input {
+        width: 380px;
+      
+        padding: 10px 5px;
+        float: right;
+        font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+        border: 0;
+        background: #EEE;
+       
+        }
+         
+        .search-wrapper input:focus {
+            outline: 0;
+            background: #fff;
+            box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        }
+         
+        .search-wrapper input::-webkit-input-placeholder {
+           color: #999;
+           font-weight: normal;
+           font-style: italic;
+        }
+         
+        .search-wrapper input:-moz-placeholder {
+            color: #999;
+            font-weight: normal;
+            font-style: italic;
+        }
+         
+        .search-wrapper input:-ms-input-placeholder {
+            color: #999;
+            font-weight: normal;
+            font-style: italic;
+        }    
+         
+        /* Form submit button */
+        .search-wrapper button {
+        overflow: visible;
+        position: relative;
+        float: right;
+        margin-top:10px;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        height: 45px;
+        width: 100px;
+        color: white;
+        text-transform: uppercase;
+        background: #0a3d62;
+        }
+           
+        .search-wrapper button:hover{     
+            background: #0a3d62;
+        }   
+           
+        .search-wrapper button:active,
+        .search-wrapper button:focus{   
+            background: #0a3d62;
+            outline: 0;   
+        }
+         
+        .search-wrapper button:before { /* left arrow */
+            content: '';
+            position: absolute;
+            border-width: 8px 8px 8px 0;
+            border-style: solid solid solid none;
+            border-color: transparent #0a3d62 transparent;
+            top: 12px;
+            left: -6px;
+        }
+         
+        .search-wrapper button:hover:before{
+            border-right-color: #0a3d62;
+        }
+         
+        .search-wrapper button:focus:before,
+        .search-wrapper button:active:before{
+                border-right-color: #0a3d62;
+        }      
+         
+        .search-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+            border: 0;
+            padding: 0;
+        }    
+        
+        

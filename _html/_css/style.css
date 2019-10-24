@@ -1,0 +1,117 @@
+/*IMPORT CSS*/
+@import "flexgrid.css";
+@import "reset.css";
+@import "header.css";
+@import "sidebar.css";
+@import "main.css";
+@import "input.css";
+@import "table.css";
+
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: normal;
+  background: #fff;
+  line-height: 1.4rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #001A33;
+}
+h1 {
+  font-size: 4.375rem;
+  line-height: 5.25rem;
+  font-weight: 300;
+  color: #000;
+}
+
+h2 {
+  font-size: 3.125rem;
+  line-height: 3.875rem;
+  font-weight: 300;
+  color: #000;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2.125rem;
+  font-weight: 400;
+  color: #000;
+}
+
+
+a {
+  text-decoration: none;
+  color: #007FFF;
+  padding: 0 0 0.2rem 0;
+  font-weight: bold;
+}
+a:hover {
+  color: #007FFF;
+}
+pre {
+  overflow-x: auto;
+  padding: 1.25em;
+  border: 1px solid #182C61;
+  border-left-width: 5px;
+  margin: 1.6em 0;
+  font-size: 0.875em;
+  background: #fcfcfc;
+  white-space: pre;
+  word-wrap: normal;
+}
+code {
+  color: #007FFF;
+}
+.layout {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+
+center {text-align:center}
+
+
+.frig {float: right;}
+.fcenter {position: relative;left:40%}
+
+
+.aleft,.aleft table, .aleft tr, .aleft td, .aleft thead, .aleft tbody  {text-align:left}
+.aright,.aright table, .aright tr, .aright td, .aright thead,.aright tbody {text-align:right}
+
+
+.noborder tr,
+.noborder td,
+.noborder table,
+.noborder thead,
+.noborder tbody {
+    border: none
+}
+
+.noborder tr {
+    background: #F8EFBA;
+    border-bottom: 1px solid #222
+}
+
+
+.etapas {top:10px; width:100%; position:relative;   }
+.etapas header { margin:0px; padding:10px; font-size:15px}
+.etapas .active header {border:none}
+.etapas .active {background: #0a3d62; color:#fff}
+.etapas a, .etapas {color:#0a3d62;   padding: 0 0 0 0;
+  font-weight: bold;}
+
+
+  .obspagamento {
+    background: #F8EFBA;
+}
